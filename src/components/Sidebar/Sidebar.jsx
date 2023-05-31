@@ -24,7 +24,7 @@ export default function Sidebar() {
             {/* Profile Icon */}
             <div className="dropdown border-top">
                 <a href="#" className="d-flex align-items-center justify-content-center p-3 link-body-emphasis dropdown-toggle" data-bs-toggle="dropdown">
-                    <ProfileImage width={48} height={48} />
+                    <ProfileImage width={44} height={44} />
                 </a>
 
                 <ul className="dropdown-menu text-small shadow">
