@@ -1,5 +1,7 @@
 import React from "react";
-import FollowButton from "../Buttons/FollowButton"
+import FollowButton from "../Buttons/FollowButton";
+import NameAndId from "../ProfileBox/NameAndId";
+import ProfileImage from "../ProfileImage";
 
 export default function ExplorePanelItem() {
 
@@ -9,17 +11,13 @@ export default function ExplorePanelItem() {
             {/* Image */}
             <div className="circle-img" style={{ marginRight: "12px" }}>
                 <a href="#" className="d-inline-flex align-items-center justify-content-center">
-                    <img src="https://github.com/mdo.png" alt="profile_img" className="rounded-circle circle-img"></img>
+                    <ProfileImage width={48} height={48} />
                 </a>
             </div>
 
             {/* Content */}
             <div className="explore-panel-item-content" >
-                <div style={{ display: "inline-flex", flexDirection: "column" }}>
-                    <h5>Marco Polo</h5>
-                    <a href="#"> <span>@marcopolo</span> </a>
-                </div>
-
+                <NameAndId />
                 <FollowButton />
             </div>
             

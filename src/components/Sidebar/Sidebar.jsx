@@ -2,6 +2,7 @@ import React from "react";
 import NavItem from "./NavItem";
 import { faHouse, faHashtag, faUser } from "@fortawesome/free-solid-svg-icons";
 import TwitterIcon from '@mui/icons-material/Twitter';
+import ProfileImage from "../ProfileImage";
 
 export default function Sidebar() {
 
@@ -23,7 +24,7 @@ export default function Sidebar() {
             {/* Profile Icon */}
             <div className="dropdown border-top">
                 <a href="#" className="d-flex align-items-center justify-content-center p-3 link-body-emphasis dropdown-toggle" data-bs-toggle="dropdown">
-                    <img src="https://github.com/mdo.png" alt="profile_img" className="rounded-circle circle-img"></img>
+                    <ProfileImage width={48} height={48} />
                 </a>
 
                 <ul className="dropdown-menu text-small shadow">
