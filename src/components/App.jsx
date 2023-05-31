@@ -1,8 +1,10 @@
 import React from "react";
 import Sidebar from "./Sidebar/Sidebar";
-import Searchbar from "./Searchbar/Searchbar";
+import Searchbar from "./Searchbar";
 import ProfileBox from "./ProfileBox/ProfileBox";
+import Tweet from "./Feed/TweetArea";
 import ExplorePanel from "./ExplorePanel/ExplorePanel";
+import Header from "./Header";
 
 export default function App(){
 
@@ -10,9 +12,15 @@ export default function App(){
         <div style={{ display: "flex" }}>
 
             <Sidebar />
-            <ProfileBox />
+            
+            <div className="d-inline-flex flex-column">
+                <Header />
+                <Tweet />
+            </div>
 
-            <div style={{ display: "inline-flex", flexDirection: "column", marginLeft: "50px" }}>
+            {/* <ProfileBox /> */}
+
+            <div className={"d-inline-flex flex-column"} style={{ marginLeft: "50px" }}>
                 <Searchbar />
                 <ExplorePanel />
             </div>

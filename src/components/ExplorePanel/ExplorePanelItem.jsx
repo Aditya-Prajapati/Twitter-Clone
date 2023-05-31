@@ -1,5 +1,5 @@
 import React from "react";
-import FollowButton from "../Buttons/FollowButton";
+import GeneralButton from "../Buttons/GeneralButton";
 import NameAndId from "../ProfileBox/NameAndId";
 import ProfileImage from "../ProfileImage";
 
@@ -11,14 +11,14 @@ export default function ExplorePanelItem() {
             {/* Image */}
             <div className="circle-img" style={{ marginRight: "12px" }}>
                 <a href="#" className="d-inline-flex align-items-center justify-content-center">
-                    <ProfileImage width={48} height={48} />
+                    <ProfileImage width={44} height={44} />
                 </a>
             </div>
 
             {/* Content */}
             <div className="explore-panel-item-content" >
                 <NameAndId />
-                <FollowButton />
+                <GeneralButton bgc="rgb(39, 44, 48)" color="white" text="Follow" />
             </div>
             
         </li>
