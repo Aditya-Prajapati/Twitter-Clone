@@ -7,7 +7,7 @@ export default function ExplorePanel(){
         <div className="explore-panel">
 
             <ul className="list-group" >
-                <h4 className="ms-1 p-4 pb-2">Who to follow</h4>
+                <h5 className="ms-1 p-4 pb-2">Who to follow</h5>
 
                 <ExplorePanelItem />
                 <ExplorePanelItem />
