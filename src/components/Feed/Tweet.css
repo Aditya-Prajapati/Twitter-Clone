@@ -1,28 +1,21 @@
 .card{
-    border-radius: 0;
     border: none;
-    border-right: 0.9px solid rgb(211, 211, 211, 0.3);
+    border-radius: 0;
     border-bottom: 0.9px solid rgb(211, 211, 211, 0.3);
-}
-
-.card-head{
-    display: flex;
-    background: none;
-}
-
-.card-image{
-    margin-right: 12px;
+    border-right: 0.9px solid rgb(211, 211, 211, 0.3);
+    overflow: hidden;
+    z-index: 0;
 }
 
 .tweet-image{
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
 }
 
-.image-bg{
-    margin: 12px 0;
-    text-align: center;
+.tweet-image-bg{
     background-color: black;
     border: 0.9px solid rgb(211, 211, 211, 0.3);
     border-radius: 16px;
+    margin: 12px 0;
+    text-align: center;
 }
