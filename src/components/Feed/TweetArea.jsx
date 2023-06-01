@@ -10,14 +10,15 @@ export default function TweetArea(){
 
     return (
         <div className={"d-flex tweet-area"}>
-            <ProfileImage style={{ margin: "4px 12px 0 0" }} width={50} height={50} />
+
+            <ProfileImage style={{ margin: "4px 14px 0 0" }} width={52} height={52} />
 
             <div className="d-flex flex-column">
-
                 <form action="/" method="post">
-                    <textarea cols="66" rows="2" placeholder="What is happening?!" style={{ border: "none", resize: "none", padding: "12px 0", outline: "none" }}></textarea>
+                    
+                    <textarea cols="66" rows="2" placeholder="What is happening?!" className={"tweet-area-text-area"}></textarea>
 
-                    <div className={"d-flex my-2"} style={{ justifyContent: "space-between", alignItems: "center"}}>
+                    <div className={"d-flex my-2 align-items-center justify-content-between"}>
 
                         <div className={"d-flex"}>
                             <a href="#"> <CollectionsIcon className={"ms-1"} fontSize="small" sx={{ color: "#1da1f2" }} /> </a>
@@ -28,8 +29,8 @@ export default function TweetArea(){
                         <GeneralButton type="submit" bgc="#1da1f2" color="white" text="Tweet" />
                         
                     </div>
-                </form>
 
+                </form>
             </div>
         </div>
 );

@@ -7,9 +7,9 @@ import ProfileImage from "../ProfileImage";
 export default function Sidebar() {
 
     return (
-        <div className="d-inline-flex flex-column p-2 sidebar">
+        <div className="d-inline-flex flex-column align-items-end p-2 sidebar">
             
-                {/* Logo */}
+                {/* Main Logo */}
                 <a href="#" className="p-3">
                     <TwitterIcon fontSize="large" sx={{ color: "#1da1f2" }} />
                 </a>
@@ -24,7 +24,7 @@ export default function Sidebar() {
                 {/* Profile Icon */}
                 <div className="dropdown border-top">
                     <a href="#" className="d-flex align-items-center justify-content-center p-3 link-body-emphasis dropdown-toggle" data-bs-toggle="dropdown">
-                        <ProfileImage width={44} height={44} />
+                        <ProfileImage width={46} height={46} />
                     </a>
 
                     <ul className="dropdown-menu text-small shadow">
