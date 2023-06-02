@@ -6,7 +6,7 @@
 
 .tweet-area-text-area{
     border: none;
-    outline: "none";
+    outline: none;
     padding: 12px 0;
     resize: none; 
 }

@@ -1,5 +1,6 @@
 import react from "react";
 import SearchIcon from '@mui/icons-material/Search';
+import "./Searchbar.css";
 
 export default function Searchbar(){
 

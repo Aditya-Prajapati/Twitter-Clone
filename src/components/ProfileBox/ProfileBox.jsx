@@ -3,6 +3,7 @@ import NameAndId from "./NameAndId";
 import EditProfileButton from "../Buttons/EditProfileButton";
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import ProfileImage from "../ProfileImage";
+import "./ProfileBox.css";
 
 export default function ProfileBox(){
 

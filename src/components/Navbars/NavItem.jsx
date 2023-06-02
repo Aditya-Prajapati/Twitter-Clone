@@ -3,10 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function NavItems(props){
 
+    const navItemStyle = {
+        padding: "1rem",
+        ...props.style
+    }
+
     return (
         <li className="nav-item">
 
-            <a href="#" className="nav-link py-3">
+            <a href="#" className="nav-link" style={navItemStyle}>
                 <FontAwesomeIcon icon={props.iconName} color={props.iconColor} size={props.iconSize} />
             </a>
             

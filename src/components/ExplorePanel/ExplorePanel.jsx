@@ -1,5 +1,6 @@
 import React from "react";
-import ExplorePanelItem from "./ExplorePanelItem"
+import ExplorePanelItem from "./ExplorePanelItem";
+import "./ExplorePanel.css";
 
 export default function ExplorePanel(){
 

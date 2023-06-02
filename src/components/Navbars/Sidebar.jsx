@@ -3,6 +3,7 @@ import NavItem from "./NavItem";
 import { faHouse, faHashtag, faUser } from "@fortawesome/free-solid-svg-icons";
 import TwitterIcon from '@mui/icons-material/Twitter';
 import ProfileImage from "../ProfileImage";
+import "./Sidebar.css";
 
 export default function Sidebar() {
 

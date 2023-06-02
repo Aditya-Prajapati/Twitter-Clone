@@ -13,10 +13,10 @@ export default function TweetArea(){
 
             <ProfileImage style={{ margin: "4px 14px 0 0" }} width={52} height={52} />
 
-            <div className="d-flex flex-column">
+            <div className="d-flex flex-column" style={{ width: "100%" }}>
                 <form action="/" method="post">
                     
-                    <textarea cols="66" rows="2" placeholder="What is happening?!" className={"tweet-area-text-area"}></textarea>
+                    <textarea placeholder="What is happening?!" className={"tweet-area-text-area"}></textarea>
 
                     <div className={"d-flex my-2 align-items-center justify-content-between"}>
 

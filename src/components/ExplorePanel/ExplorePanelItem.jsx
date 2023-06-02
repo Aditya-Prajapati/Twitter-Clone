@@ -2,6 +2,7 @@ import React from "react";
 import GeneralButton from "../Buttons/GeneralButton";
 import NameAndId from "../ProfileBox/NameAndId";
 import ProfileImage from "../ProfileImage";
+import "./ExplorePanel.css";
 
 export default function ExplorePanelItem() {
 
@@ -16,7 +17,7 @@ export default function ExplorePanelItem() {
             </div>
 
             {/* Content */}
-            <div className="d-flex align-items-center justify-content-between explore-panel-item-content" >
+            <div className="d-flex align-items-center justify-content-between explore-panel-item-content" style={{ width: "100%" }} >
                 <NameAndId />
                 <GeneralButton bgc="rgb(39, 44, 48)" color="white" text="Follow" />
             </div>
