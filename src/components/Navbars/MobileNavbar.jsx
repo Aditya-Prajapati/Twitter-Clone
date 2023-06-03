@@ -9,9 +9,9 @@ export default function MobileNavbar(){
         <div className="fixed-bottom bgc-white mobile-navbar">
 
             <ul className="nav justify-content-between mx-5">
-                <a href="#"> <NavItem iconName={faHouse} iconColor={"black"} iconSize={"l"} style={{ padding: ".5rem" }} /> </a>
-                <a href="#"> <NavItem iconName={faHashtag} iconColor={"black"} iconSize={"l"} style={{ padding: ".5rem" }} /> </a>
-                <a href="#"> <NavItem iconName={faUser} iconColor={"black"} iconSize={"l"} style={{ padding: ".5rem" }} /> </a>
+                <NavItem link={"/"} iconName={faHouse} iconColor={"black"} iconSize={"l"} style={{ padding: ".5rem" }} /> 
+                <NavItem link={"/explore"} iconName={faHashtag} iconColor={"black"} iconSize={"l"} style={{ padding: ".5rem" }} />
+                <NavItem link={"/profile"} iconName={faUser} iconColor={"black"} iconSize={"l"} style={{ padding: ".5rem" }} /> 
             </ul>
 
         </div>

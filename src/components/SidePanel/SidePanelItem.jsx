@@ -2,12 +2,12 @@ import React from "react";
 import GeneralButton from "../Buttons/GeneralButton";
 import NameAndId from "../ProfileBox/NameAndId";
 import ProfileImage from "../ProfileImage";
-import "./ExplorePanel.css";
+import "./SidePanel.css";
 
-export default function ExplorePanelItem() {
+export default function SidePanelItem() {
 
     return (
-        <li className="d-flex list-group-item my-1 bgc-white explore-panel-item">
+        <li className="d-flex list-group-item my-1 bgc-white side-panel-item">
 
             {/* Image */}
             <div className="me-1 pe-2">
@@ -17,7 +17,7 @@ export default function ExplorePanelItem() {
             </div>
 
             {/* Content */}
-            <div className="d-flex align-items-center justify-content-between explore-panel-item-content" style={{ width: "100%" }} >
+            <div className="d-flex align-items-center justify-content-between side-panel-item-content">
                 <NameAndId />
                 <GeneralButton bgc="rgb(39, 44, 48)" color="white" text="Follow" />
             </div>
